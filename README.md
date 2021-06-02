@@ -60,10 +60,16 @@ cd EEP_520_Project/project
 ```bash
 docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
 ```
-5. 
+5. To start the project, 
+```bash
+esm start
+```
+```bash
+enviro
+```
+6. Open your web browser and type in localhost and you should be able to see this.
 
-
-## How to run
+![](/images/wanderingmaze.PNG)
 
 
 ## Acknowledgement
