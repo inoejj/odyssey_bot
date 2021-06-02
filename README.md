@@ -5,3 +5,18 @@ This is a final project for EEP 520 Spring 2021. The goal of is to build a wande
 ## Overview
 
 The goal of this project is to build a good enough robot to get out of the maze and not to be stucked in the maze forever and not moving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. The goal of this project is to build a cute robot for a day to day software developer to stare at and zone out to comfort their eyes and soul.
+
+## Key Challenge
+
+1. Robot get stuck
+
+It is easy to build a random wandering robot by using random number generator for the robot to rotate and move forward randomly. However, the robot tend to get stucked after colliding at the maze and will not be able to get out. To overcome this, an avoid colliding behavior is added to the robot. With this, the robot will decelerate before it knows it is going to collide to an object and avoid that from happening. 
+
+## Installation
+
+
+## How to run
+
+
+## Acknowledgement 
+
