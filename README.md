@@ -8,6 +8,24 @@ This is a final project for EEP 520 Spring 2021. The goal of is to build a wande
 
 The goal of this project is to build a good enough robot to get out of the maze and not to be stucked in the maze forever and not moving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. The goal of this project is to build a cute robot for a day to day software developer to stare at and zone out to comfort their eyes and soul.
 
+Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name.
+
+#### Maze
+The maze is made out of different objects
+
+- wall : horizontal wall (outer layer of maze)
+- wall2 : vertical wall ( outer layer of maze)
+- maze1 : short vertical wall ( inner layer of maze)
+- maze2 : medium length horizontal wall ( inner layer of maze)
+- maze3 : short horizontal wall ( inner layer of maze)
+
+#### Box
+- box : The red box is just to show the starting point of the maze, while the green box is the goal of the maze.
+
+#### Robot
+
+- my_robot : a wandering robot with multiple behaviors
+
 ## Key Challenges
 
 1. Robot get stuck
@@ -16,7 +34,7 @@ It is easy to build a random wandering robot by using random number generator fo
 
 2. Tuning the physics parameters for the robot
 
-It is challenging to tune the velocity, angular velocity, momentum, and the controls for the robot to the most optimal and desired settings. The only way to do it is to through trial and error. I did a bunch of testing and just iterate over and over again to find the best hyperparameters that I want.
+It is challenging to tune the velocity, angular velocity, momentum, friction, controls and the sensors for the robot to the most optimal and desired settings. The only way to do it is to through trial and error. I did a bunch of testing and just iterate over and over again to find the best hyperparameters that I want.
 
 ## Installation
 
