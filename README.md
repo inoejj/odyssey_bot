@@ -39,9 +39,28 @@ It is challenging to tune the velocity, angular velocity, momentum, friction, co
 ## Installation
 
 ### Requirements
+Please make sure that you have docker installed before proceeding to the installation steps.
 
 1. [Docker](https://docs.docker.com/get-docker/)
-2. 
+2. [Git](https://git-scm.com/)
+
+### Step by step installation instruction
+
+
+1. Open up command prompt or bash.
+2. Type in 
+```bash
+git clone https://github.com/inoejj/EEP_520_Project.git
+```
+3. Change to the project directory
+```bash
+cd EEP_520_Project/project
+```
+4. Before starting the docker image, please change the **$PWD** to your project folder. Then start the docker image environment (It will automatically download the docker image if you do not have it in your local machine),
+```bash
+docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
+```
+5. 
 
 
 ## How to run
