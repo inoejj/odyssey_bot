@@ -1,7 +1,7 @@
 {
     "name": "MyRobot",
     "type": "dynamic",
-    "description": "Replace this string with a description",
+    "description": "A wandering robot with multiple behaviors",
     "shape": [
         { "x": -10, "y": 10 },
         { "x": 10, "y": 10 },

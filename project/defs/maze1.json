@@ -1,7 +1,7 @@
 {
     "name": "maze1",
     "type": "static",
-    "description": "small vertical maze shape",
+    "description": "short vertical wall",
     "shape": [
         { "x": -5, "y": 50 },
         { "x": 5, "y": 50 },

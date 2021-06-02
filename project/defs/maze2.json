@@ -1,7 +1,7 @@
 {
     "name": "maze2",
     "type": "static",
-    "description": "horizontal maze",
+    "description": "medium length horizontal wall",
     "shape": [
         { "x": -100, "y": 5 },
         { "x": 100, "y": 5 },
