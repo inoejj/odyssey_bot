@@ -14,6 +14,11 @@ It is easy to build a random wandering robot by using random number generator fo
 
 ## Installation
 
+### Requirements
+
+1. [Docker](https://docs.docker.com/get-docker/)
+2. 
+
 
 ## How to run
 
