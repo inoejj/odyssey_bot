@@ -14,6 +14,10 @@ The goal of this project is to build a good enough robot to get out of the maze 
 
 It is easy to build a random wandering robot by using random number generator for the robot to rotate and move forward randomly. However, the robot tend to get stucked after colliding at the maze and will not be able to get out. To overcome this, an avoid colliding behavior is added to the robot. With this, the robot will decelerate before it knows it is going to collide to an object and avoid that from happening. 
 
+2. Tuning the physics parameters for the robot
+
+It is challenging to tune the velocity, angular velocity, momentum, and the controls for the robot to the most optimal and desired settings. The only way to do it is to through trial and error. I did a bunch of testing and just iterate over and over again to find the best hyperparameters that I want.
+
 ## Installation
 
 ### Requirements
