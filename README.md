@@ -39,7 +39,7 @@ It is challenging to tune the velocity, angular velocity, momentum, friction, co
 ## Installation
 
 ### Requirements
-Please make sure that you have docker installed before proceeding to the installation steps.
+Please make sure that you have docker and Git installed before proceeding to the installation steps.
 
 1. [Docker](https://docs.docker.com/get-docker/)
 2. [Git](https://git-scm.com/)
