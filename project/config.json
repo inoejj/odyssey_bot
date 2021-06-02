@@ -1,0 +1,260 @@
+{
+
+    "name": "Wandering in the Maze",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+   "agents": [    
+    {
+        "definition": "defs/my_robot.json",
+        "style": { "fill": "pink", "stroke": "black" },
+        "position": {
+            "x": -250, 
+            "y": -180, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/wall.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -5, 
+            "y": 205, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/wall.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 100, 
+            "y": -200, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/wall2.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -300, 
+            "y": 0, 
+            "theta": 0
+        }
+    }, 
+
+{
+        "definition": "defs/wall2.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 400, 
+            "y": -5, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -50, 
+            "y": -145, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze2.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -50, 
+            "y": -90, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 55, 
+            "y": -45, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze3.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 0, 
+            "y": 0, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -45, 
+            "y": 45, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze2.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -45, 
+            "y": 100, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze3.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -245, 
+            "y": 0, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": -120, 
+            "y": -35, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 150, 
+            "y": 150, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 150, 
+            "y": -145, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/maze2.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 210, 
+            "y": -90, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 250, 
+            "y": -35, 
+            "theta": 0
+        }
+    },
+
+{
+        "definition": "defs/maze3.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 205, 
+            "y": 20, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze1.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 215, 
+            "y": 75, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/maze3.json",
+        "style": { "fill": "grey", "stroke": "black" },
+        "position": {
+            "x": 345, 
+            "y": 75, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/box.json",
+        "style": { "fill": "red", "stroke": "red" },
+        "position": {
+            "x": -250, 
+            "y": -260, 
+            "theta": 0
+        }
+    },
+{
+        "definition": "defs/box.json",
+        "style": { "fill": "lightgreen", "stroke": "lightgreen" },
+        "position": {
+            "x": 350, 
+            "y": 330, 
+            "theta": 0
+        }
+    }
+             
+                
+],
+
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -550, "y": -400 },
+                { "x": -550,  "y": 400 },
+                { "x": -540,  "y": 400 },
+                { "x": -540, "y": -400 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 550, "y": -400 },
+                { "x": 550,  "y": 400 },
+                { "x": 540,  "y": 400 },
+                { "x": 540, "y": -400 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -550, "y": 400 },
+                { "x": 550,  "y": 400 },
+                { "x": 550,  "y": 490 },
+                { "x": -550, "y": 490 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -550, "y": -400 },
+                { "x": 550,  "y": -400 },
+                { "x": 550,  "y": -490 },
+                { "x": -550, "y": -490 }
+            ]
+        }
+
+    ]
+
+}
