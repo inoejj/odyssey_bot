@@ -2,7 +2,7 @@
 
 This is a final project for EEP 520 Spring 2021. The goal of is to build a wandering robot in a maze for the user to watch it trying to get out of the maze and touch the green box. The main purpose is to build a system that is for user to watch relaxingly (like a screensaver) and not to get out of the maze efficiently and quickly. This system is built using [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro).
 
-![](/images/wanderingmaze.PNG)
+![](/images/wanderingbot.gif)
 
 ## Overview
 
