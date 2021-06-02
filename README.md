@@ -31,7 +31,10 @@ It is challenging to tune the velocity, angular velocity, momentum, and the cont
 
 ## Acknowledgement
 
-This system is built on top of [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro). Elma is an event loop and process manager for embedded and reactive systems. Elma is structured as a C++ library of classes on top of which you build your own C++ project. It keeps track of processes, finite state machines, events, and communication channels, executing them at specified frequencies. Enviro is a multi-agent, multi-user, multi-everything simulator for users to play around and have fun coding C++.
+This system is built on top of [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro). 
+
+- Elma is an event loop and process manager for embedded and reactive systems. Elma is structured as a C++ library of classes on top of which you build your own C++ project. It keeps track of processes, finite state machines, events, and communication channels, executing them at specified frequencies. 
+- Enviro is a multi-agent, multi-user, multi-everything simulator for users to play around and have fun coding C++.
 
 The installation and running this is made easy by using a dockerhub image built by [Klavins Lab](https://github.com/klavinslab).
 
