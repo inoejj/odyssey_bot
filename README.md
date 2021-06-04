@@ -14,7 +14,7 @@ This project is intended to capture the everyday struggles we all go through in 
 
 This project aims to build a robot that will find the maze's exit and not instead be eternally trapped in a corner of the maze, unmoving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. 
 
-Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name.
+Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name (hardship).
 
 #### Maze
 
