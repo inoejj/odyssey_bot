@@ -57,7 +57,7 @@ Please make sure that you have docker and Git installed before proceeding to the
 1. Open up command prompt or bash.
 2. Type in 
 ```bash
-git clone https://github.com/inoejj/EEP_520_Project.git
+git clone https://github.com/inoejj/odyssey_bot.git
 ```
 3. Change to the project directory
 ```bash
