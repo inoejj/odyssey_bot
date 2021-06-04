@@ -12,11 +12,12 @@ This system is built using [Elma](https://github.com/klavinslab/elma) and [Envir
 
 This project is intended to capture the everyday struggles we all go through in life as we strive towards our goals. Oftentimes we lose our way or find ourselves wandering, but the robot and its journey are meant to serve as a gentle reminder that even if we don't travel the quickest path or even the easiest one, we will still get to where we want to be. 
 
-This project aims to build a robot that will find the maze's exit and not instead be eternally trapped in a corner of the maze, unmoving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. The goal of this project is to build a cute robot for a day to day software developer to stare at and zone out to comfort their eyes and soul.
+This project aims to build a robot that will find the maze's exit and not instead be eternally trapped in a corner of the maze, unmoving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. 
 
 Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name.
 
 #### Maze
+
 The maze is made out of different objects
 
 - wall : horizontal wall (outer layer of maze)
