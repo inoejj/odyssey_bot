@@ -27,11 +27,12 @@ The maze is made out of different objects
 - maze3 : short horizontal wall ( inner layer of maze)
 
 #### Box
-- box : The red box is just to show the starting point of the maze, while the green box is the goal of the maze.
+- box : The red box is just to show the starting point of the maze.
+- box2 : The green box is the goal(end point) of the maze.
 
 #### Robot
 
-- my_robot : a wandering robot with multiple behaviors
+- my_robot : a wandering robot(Odysseús) with multiple behaviors
 
 ## Key Challenges
 
@@ -94,4 +95,6 @@ This system is built on top of [Elma](https://github.com/klavinslab/elma) and [E
 The installation and running this is made easy by using a dockerhub image built by [Klavins Lab](https://github.com/klavinslab).
 
 Both packages were built by [Klavins Lab](https://github.com/klavinslab).
+
+Special thanks to a rising neuroscientist/poet Valerie Tsai for the inspiration of this project.
 
