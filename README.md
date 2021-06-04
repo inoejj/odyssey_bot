@@ -1,4 +1,4 @@
-# Wandering in the Maze
+# Odyssey Bot
 
 This is a final project for EEP 520 Spring 2021 intended to show the user a wandering robot searching for the way out of a maze to reach its goal, the green box. Rather than the robot exiting the maze as efficiently and quickly as possible, the main purpose is for the robot's journey to calm the user. Just as we often struggle to find our way through life's labyrinth of hardships, the robot strives to find its path, and eventually it does, just as we will. The robot's long but ultimately fruitful journey reassures us that maybe our journeys will be long and hard, but there is a light at the end of the tunnel, and our green boxes are out there, waiting for us, even if we can't see them from the dead end we're up against right now. 
 
