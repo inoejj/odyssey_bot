@@ -1,6 +1,6 @@
 {
 
-    "name": "Wandering in the Maze",
+    "name": "Odyssey Bot",
     "ip": "0.0.0.0",
     "port": 8765,
 
@@ -204,7 +204,7 @@
         }
     },
 {
-        "definition": "defs/box.json",
+        "definition": "defs/box2.json",
         "style": { "fill": "lightgreen", "stroke": "lightgreen" },
         "position": {
             "x": 350, 

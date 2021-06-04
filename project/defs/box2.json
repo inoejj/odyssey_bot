@@ -1,0 +1,19 @@
+{
+    "name": "Goal",
+    "type": "dynamic",
+    "description": "This is the goal, the rainbow where you march towards in life",
+    "shape": [
+        { "x": -50, "y": 50 },
+        { "x": 50, "y": 50 },
+        { "x": 50, "y": -50 },
+        { "x": -50, "y": -50 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/box2.so"
+}

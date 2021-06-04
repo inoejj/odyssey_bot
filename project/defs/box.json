@@ -1,7 +1,7 @@
 {
-    "name": "box",
+    "name": "Starting Point",
     "type": "static",
-    "description": "Replace this string with a description",
+    "description": "Starting point of life",
     "shape": [
         { "x": -50, "y": 50 },
         { "x": 50, "y": 50 },
