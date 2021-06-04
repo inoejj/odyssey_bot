@@ -66,7 +66,7 @@ cd odyssey_bot/project
 ```
 4. Before starting the docker image, please change the **$PWD** to your project folder. Then start the docker image environment (It will automatically download the docker image if you do not have it in your local machine),
 
-For an example 
+For example, 
 
 `docker run -p80:80 -p8765:8765 -v C:\Users\TheGoldenLab\Desktop\odysseybot\odyssey_bot\project:/source -it klavins/enviro:v1.61 bash`
 
