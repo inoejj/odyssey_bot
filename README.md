@@ -61,7 +61,7 @@ git clone https://github.com/inoejj/odyssey_bot.git
 ```
 3. Change to the project directory
 ```bash
-cd EEP_520_Project/project
+cd odyssey_bot/project
 ```
 4. Before starting the docker image, please change the **$PWD** to your project folder. Then start the docker image environment (It will automatically download the docker image if you do not have it in your local machine),
 ```bash
