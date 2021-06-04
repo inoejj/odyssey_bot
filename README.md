@@ -16,6 +16,8 @@ This project aims to build a robot that will find the maze's exit and not instea
 
 Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name (hardship).
 
+![](/images/hardship.gif)
+
 #### Maze
 
 The maze is made out of different objects
