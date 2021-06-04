@@ -1,12 +1,18 @@
 # Wandering in the Maze
 
-This is a final project for EEP 520 Spring 2021. The goal of is to build a wandering robot in a maze for the user to watch it trying to get out of the maze and touch the green box. The main purpose is to build a system that is for user to watch relaxingly (like a screensaver) and not to get out of the maze efficiently and quickly. This system is built using [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro).
+This is a final project for EEP 520 Spring 2021 intended to show the user a wandering robot searching for the way out of a maze to reach its goal, the green box. Rather than the robot exiting the maze as efficiently and quickly as possible, the main purpose is for the robot's journey to calm the user. Just as we often struggle to find our way through life's labyrinth of hardships, the robot strives to find its path, and eventually it does, just as we will. The robot's long but ultimately fruitful journey reassures us that maybe our journeys will be long and hard, but there is a light at the end of the tunnel, and our green boxes are out there, waiting for us, even if we can't see them from the dead end we're up against right now. 
+
+
+
+This system is built using [Elma](https://github.com/klavinslab/elma) and [Enviro](https://github.com/klavinslab/enviro).
 
 ![](/images/wanderingbot.gif)
 
 ## Overview
 
-The goal of this project is to build a good enough robot to get out of the maze and not to be stucked in the maze forever and not moving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. The goal of this project is to build a cute robot for a day to day software developer to stare at and zone out to comfort their eyes and soul.
+This project is intended to capture the everyday struggles we all go through in life as we strive towards our goals. Oftentimes we lose our way or find ourselves wandering, but the robot and its journey are meant to serve as a gentle reminder that even if we don't travel the quickest path or even the easiest one, we will still get to where we want to be. 
+
+This project aims to build a robot that will find the maze's exit and not instead be eternally trapped in a corner of the maze, unmoving. The key challenges include building a good enough robot that will not get stuck forever in the maze but at the same time not too good that it will get out of the maze quickly and efficiently. The goal of this project is to build a cute robot for a day to day software developer to stare at and zone out to comfort their eyes and soul.
 
 Before colliding into an object (wall/maze/box) the robot will decelerate and prevent the collision. The sensor will also detect the object and print the name.
 
